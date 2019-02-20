@@ -1,0 +1,99 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "vmName": {
+            "value": "SQLDR"
+        },
+        "availabilitySetName": {
+            "value": "SQLDR-AvSet"
+        },
+        "adminUsername": {
+            "value": "localadmin"
+        },
+        "adminPassword": {
+            "value": "Passw0rd1!!!!!!!!"
+        },
+        "adDomain": {
+            "value": "omegamadlab.local"
+        },
+        "vnetName": {
+            "value": "DR-Vnet"
+        },
+        "vnetResourceGroup": {
+            "value": "DR-Demo-RG"
+        },
+        "subnetName": {
+            "value": "default"
+        },
+        "privateIp": {
+            "value": "10.1.0.10"
+        },
+        "enableAcceleratedNetworking": {
+            "value": "No"
+        },
+        "enablePublicIP": {
+            "value": "No"
+        },
+        "dnsLabelPrefix": {
+            "value": ""
+        },
+        "asgIds": {
+            "value": []
+        },
+        "sqlVersion": {
+            "value": "SQL Server 2017 Standard on Windows Server 2016"
+        },
+        "vmSize": {
+            "value": "Standard_DS2_v2"
+        },
+        "useAHB": {
+            "value": "No"
+        },
+        "timeZone": {
+            "value": "(UTC+01:00) Amsterdam, Berlin, Bern, Rome, Stockholm, Vienna"
+        },
+        "osDiskSuffix": {
+            "value": "DISK0"
+        },
+        "AdditionalDiskSuffix": {
+            "value": "DISK"
+        },
+        "storageSKU": {
+            "value": "StandardSSD_LRS"
+        },
+        "workloadType": {
+            "value": "OLTP"
+        },
+        "#ofDataDisks": {
+            "value": 1
+        },
+        "dataDisksSize": {
+            "value": 32
+        },
+        "stripeDataDisks": {
+            "value": "No"
+        },
+        "#ofLogDisks": {
+            "value": 1
+        },
+        "logDisksSize": {
+            "value": 32
+        },
+        "stripeLogDisks": {
+            "value": "No"
+        },
+        "#ofAdditionalDisks": {
+            "value": 1
+        },
+        "additionalDisksSize": {
+            "value": 32
+        },
+        "diagStorageAccountName": {
+            "value": "drdemorgdiag423"
+        },
+        "EnableSqlIaasExtension": {
+            "value": "No"
+        }
+    }
+}
