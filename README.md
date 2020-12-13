@@ -1,7 +1,9 @@
 # FCI_and_AG
-This repo contains demo scripts used to extend an on-prem FCI to Azure with Basic AGs.
+This repo contains the demo scripts used to extend an on-prem FCI to Azure with Basic AGs.
 
-Scripts where prepared for session I presented at different webinars/conferences:
+You can see them in action in this **[tutorial](https://youtu.be/BFthrDFEDL4)**.
+
+The scripts where prepared for session I presented at different webinars/conferences:
 
 **PASS Global Italian Virtual Group** webinar on SQL Server DR with Azure.  
 You can find the whole session (italian language) on the YouTube channel of the group (https://www.youtube.com/channel/UC-XnyUOyC1n2-9JQ4DtD7-Q) 
